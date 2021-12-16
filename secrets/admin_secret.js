@@ -1,7 +1,7 @@
-import {}from 'dotenv/config';
+import {} from 'dotenv/config';
 
 export default  {
   port: process.env.PORT,
-  mongodb_url: process.env.MONGODB_URL,
+  database_url: process.env.DATABASE_URL,
   jwt_secret: process.env.JWT_SECRET,
 };
